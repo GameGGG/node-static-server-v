@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Node test</title>
+	<link rel="stylesheet" href="css/index.css">
+	<script src="javascript/jquery-1.11.3.js"></script>
+</head>
+<body>
+	<h1>Hello world</h1>
+	<script>
+		$.ajax({
+			url:'http://127.0.0.1:8080/API/getCount',
+			type:'GET',
+			dataType:'json',
+			success:function(data){
+				console.log(data);
+			},
+			error:function(data){
+				console.log(data);
+			}
+		})
+		
+	</script>
+</body>
+</html>
