@@ -21,6 +21,7 @@ node-static-server
 控制台会显示server start:127.0.0.1:8080表示服务器以启动，浏览器中输入 127.0.0.1:8080/index.html
 
 静态资源访问：
+
 	root/index.html							127.0.0.1:8080/index.html
 	root/javacript/xx.js					127.0.0.1:8080/javascript/xx.js
 	root/css/xx.css							127.0.0.1:8080/css/xx.css
