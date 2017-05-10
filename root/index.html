@@ -10,11 +10,12 @@
 	<h1>Hello world</h1>
 	<script>
 		$.ajax({
-			url:'http://127.0.0.1:8080/API/getCount',
+			url:'http://127.0.0.1:8080/API/date',
 			type:'GET',
 			dataType:'json',
 			success:function(data){
-				console.log(data);
+				console.log(data.imgUrl);
+				document.querySelector('body').style.background = 'url('+data.imgUrl+') no-repeat'
 			},
 			error:function(data){
 				console.log(data);
