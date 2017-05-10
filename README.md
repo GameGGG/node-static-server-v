@@ -23,7 +23,7 @@ node-static-server
 静态资源访问：
 
 	root/index.html							127.0.0.1:8080/index.html
-	root/javacript/xx.js					127.0.0.1:8080/javascript/xx.js
+	root/javacript/xx.js						127.0.0.1:8080/javascript/xx.js
 	root/css/xx.css							127.0.0.1:8080/css/xx.css
 
 ***
