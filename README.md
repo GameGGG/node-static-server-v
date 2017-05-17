@@ -1,6 +1,6 @@
 # Project Name
 
-node-static-server
+node-static-server-v
 
 ***
 ## Intro
@@ -11,7 +11,7 @@ node-static-server
 ***
 ## Use
 
-	git https://github.com/StopllL/node-static-server-v.git
+	git clone https://github.com/StopllL/node-static-server-v.git
 	cd node-static-server-v
 
 	node -v 				// 检查是否有node环境，如果没有则安装node，有则下一步
